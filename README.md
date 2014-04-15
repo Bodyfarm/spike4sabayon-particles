@@ -12,3 +12,5 @@ hopefully the package build particles serve others ,
 as well , as making a PenTest spin for Sabayon Linux all that much eassier.
 
 hopefully the Sabayon Dev team can take the particles and use them till thiers something better. 
+
+mainly to build a few extra security Toys and packages. IE Metaslpoit and the like , and keep it all nice and fresh.
