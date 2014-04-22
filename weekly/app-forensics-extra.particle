@@ -1,0 +1,22 @@
+app-admin/testdisk
+	app-crypt/xor-analyze
+	app-forensics/autopsy
+	!arm? ( app-forensics/cmospwd )
+	app-forensics/dff
+	app-forensics/foremost
+	app-forensics/galleta
+	app-forensics/inception
+	app-forensics/libvshadow
+	app-forensics/make-pdf
+	app-forensics/memdump
+	app-forensics/origami-pdf
+	app-forensics/pasco
+	app-forensics/pdf-parser
+	app-forensics/pdfid
+	app-forensics/rdd
+	app-forensics/sleuthkit
+	app-forensics/volatility
+	app-misc/hivex
+	sys-apps/dcfldd
+	sys-fs/dd-rescue
+	sys-fs/ddrescue
