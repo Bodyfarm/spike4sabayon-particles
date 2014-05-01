@@ -1,0 +1,16 @@
+net-analyzer/amap
+	net-analyzer/blindelephant
+	net-analyzer/fierce
+	net-analyzer/geoedge
+	net-analyzer/metagoofil
+	net-analyzer/ntp-fingerprint
+	net-analyzer/p0f
+	net-analyzer/scanssh
+	net-analyzer/siphon
+	net-analyzer/smtpmap
+	net-analyzer/subdomainer
+	net-analyzer/theHarvester
+	net-analyzer/waffit
+	net-analyzer/wfuzz
+	net-analyzer/whatweb
+	net-analyzer/xprobe"
