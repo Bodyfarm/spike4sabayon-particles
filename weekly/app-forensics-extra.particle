@@ -7,8 +7,7 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-app-forensics/dff,app-forensics/inception,app-forensics/libvshadow,app-forensics/make-pdf,app-forensics/memdump,app-forensics/origami-pdf,app-forensics/pdf-parser,app-forensics/pdfid,app-forensics/rdd,app-forensics/volatility,app-misc/hivex,sys-apps/dcfldd
-	app-forensics / yim2text
+app-forensics/dff,app-forensics/inception,app-forensics/libvshadow,app-forensics/make-pdf,app-forensics/memdump,app-forensics/origami-pdf,app-forensics/pdf-parser,app-forensics/pdfid,app-forensics/rdd,app-forensics/volatility,app-misc/hivex,sys-apps/dcfldd,app-forensics / yim2text
 # app-forensics / yim2text Gentoo-sunrise , yahoo IM recovery tool 	
 # Enforce stable or unstable packages on emerge.
 # yes = only stable packages are accepted
