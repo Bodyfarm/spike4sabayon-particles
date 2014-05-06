@@ -8,8 +8,43 @@
 # Mandatory, cannot be empty
 #Preemtive command="layman -L && layman -a pentoo && layman -S"
 packages:
-app-admin/haskell-updater,dev-haskell/alex,dev-haskell/cabal,dev-haskell/cabal-install,dev-haskell/cgi,dev-haskell/deepseq,dev-haskell/fgl,dev-haskell/gluraw,dev-haskell/glut,dev-haskell/haddock,dev-haskell/happy,dev-haskell/haskell-platform,dev-haskell/haskell-src,dev-haskell/hscolour,dev-haskell/html,dev-haskell/http,dev-haskell/hunit,dev-haskell/mtl,dev-haskell/network,dev-haskell/objectname,dev-haskell/openglraw,dev-haskell/opengl,dev-haskell/parallel,dev-haskell/parsec,dev-haskell/quickcheck,dev-haskell/random,dev-haskell/regex-base,dev-haskell/regex-compat,dev-haskell/regex-posix,dev-haskell/statevar,dev-haskell/stm,dev-haskell/syb,dev-haskell/tensor,dev-haskell/text,dev-haskell/time,dev-haskell/transformers,dev-haskell/xhtml,dev-haskell/zlib,dev-lang/ghc
-
+  app-admin/haskell-updater,
+  dev-haskell/alex,
+  dev-haskell/cabal,
+  dev-haskell/cabal-install,
+  dev-haskell/cgi,  
+  dev-haskell/deepseq,  
+  dev-haskell/fgl,
+  dev-haskell/gluraw,
+  dev-haskell/glut, 
+  dev-haskell/haddock,  
+  dev-haskell/happy,
+  dev-haskell/haskell-platform, 
+  dev-haskell/haskell-src,  
+  dev-haskell/hscolour, 
+  dev-haskell/html,dev-haskell/http,  
+  dev-haskell/hunit,dev-haskell/mtl,  
+  dev-haskell/network,  
+  dev-haskell/objectname, 
+  dev-haskell/openglraw,  
+  dev-haskell/opengl, 
+  dev-haskell/parallel, 
+  dev-haskell/parsec, 
+  dev-haskell/quickcheck, 
+  dev-haskell/random, 
+  dev-haskell/regex-base, 
+  dev-haskell/regex-compat, 
+  dev-haskell/regex-posix,  
+  dev-haskell/statevar, 
+  dev-haskell/stm,  
+  dev-haskell/syb,  
+  dev-haskell/tensor, 
+  dev-haskell/text, 
+  dev-haskell/time, 
+  dev-haskell/transformers,
+  dev-haskell/xhtml,  
+  dev-haskell/zlib, 
+  dev-lang/ghc
 
 #SAB_BAD=" or app-crypt="name,name2"
 #USE="${SAB_BAD} ${SAB_BROWSER} ${SAB_CODECS} ${SAB_COMMS} arrays would be a plus for neatness hear. 
@@ -128,8 +163,3 @@ buildfail: /particles/hooks/buildfail.sh
 
 # For more info regarding exported environment variables, please see:
 # matter --help
-
-
-
-
-
