@@ -20,7 +20,8 @@ packages:
 	sys-firmware/zd1201-firmware,
 	sys-firmware/zd1211-firmware,
    net-wireless/aircrack-ng[airdrop-ng]
-
+   
+   #net-wireless/aircrack-ng[airdrop-ng] Pentoo overlay
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
 repository: sabayon-hell
