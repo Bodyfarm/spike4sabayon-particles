@@ -9,16 +9,16 @@
 # Mandatory, cannot be empty
 #Preemtive command="layman -L && layman -a pentoo && layman -S"
 packages:
-app-fuzz/Peach
-app-fuzz/bed
-app-fuzz/fuzzer-server
-app-fuzz/http-fuzz
-app-fuzz/ohrwurm
-app-fuzz/slowhttptest
-app-fuzz/smtp-fuzz
-app-fuzz/smudge
-net-analyzer/wfuzz
-app-fuzz/fuzzdb
+app-fuzz/Peach,
+app-fuzz/bed,
+app-fuzz/fuzzer-server,
+app-fuzz/http-fuzz,
+app-fuzz/ohrwurm,
+app-fuzz/slowhttptest,
+app-fuzz/smtp-fuzz,
+app-fuzz/smudge,
+net-analyzer/wfuzz,
+app-fuzz/fuzzdb,
 
 #SAB_BAD=" or app-crypt="name,name2"
 #USE="${SAB_BAD} ${SAB_BROWSER} ${SAB_CODECS} ${SAB_COMMS} arrays would be a plus for neatness hear. 
