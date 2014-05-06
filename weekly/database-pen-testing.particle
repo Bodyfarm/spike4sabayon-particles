@@ -1,5 +1,5 @@
 # Entropy Matter, Automated Entropy Packages Build Service, example spec file
-#DESCRIPTION="Pentoo cracking meta ebuild items nick'ed from for building
+#DESCRIPTION="Pentoo databases (cracking)  meta ebuild items nick'ed from for building
 # needed to build Sabayon Zorro Beta , then hopefully Sabayon Security Aduitor's Desktop Enviorment 
 #(Bleeding edge Security testing)
 # List of packages required to be built.
@@ -7,17 +7,22 @@
 # Mandatory, cannot be empty
 #Preemtive command="layman -L && layman -a pentoo && layman -S"
 packages:
-app-crypt/hashkill,
-app-crypt/md5bf,
-app-crypt/cuda-rarcrypt,
-net-misc/rdesktop-brute,
-net-analyzer/thc-pptp-bruter,
-net-analyzer/ncrack,
-app-text/cewl,
-app-dicts/raft-wordlists,
-app-crypt/SIPcrack,
-app-crypt/pyrit,
-app-crypt/hashcat-gui
+net-analyzer/amap,
+net-analyzer/blindelephant,
+net-analyzer/fierce,
+net-analyzer/geoedge,
+net-analyzer/metagoofil
+net-analyzer/ntp-fingerprint
+net-analyzer/p0f
+net-analyzer/scanssh
+net-analyzer/siphon
+net-analyzer/smtpmap,
+net-analyzer/subdomainer,
+net-analyzer/theHarvester,
+net-analyzer/waffit,
+net-analyzer/wfuzz,
+net-analyzer/whatweb,
+net-analyzer/xprobe
 
 
 #SAB_BAD=" or app-crypt="name,name2"
@@ -137,4 +142,3 @@ buildfail: /particles/hooks/buildfail.sh
 
 # For more info regarding exported environment variables, please see:
 # matter --help
-
