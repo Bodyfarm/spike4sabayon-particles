@@ -2,7 +2,7 @@
 #DESCRIPTION="HaskellPlatform Particle"
 #HOMEPAGE="http://www.haskell.org/haskellwiki/Gentoo/HaskellPlatform"
 # needed to build HaskellPlatform  , to ease haskell and other dependencies. 
-
+#pre-install layman -a haskell
 # List of packages required to be built.
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
