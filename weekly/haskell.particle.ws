@@ -1,16 +1,14 @@
 # Entropy Matter, Automated Entropy Packages Build Service, example spec file
-#DESCRIPTION="Pentoo fuzzers meta ebuild items nick'ed from for building
-#HOMEPAGE="http://www.pentoo.ch"
-# needed to build Sabayon Zorro Beta , then hopefully Sabayon Security Aduitor's Desktop Enviorment 
-#(Bleeding edge Security testing)
+#DESCRIPTION="HaskellPlatform Particle"
+#HOMEPAGE="http://www.haskell.org/haskellwiki/Gentoo/HaskellPlatform"
+# needed to build HaskellPlatform  , to ease haskell and other dependencies. 
 
 # List of packages required to be built.
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 #Preemtive command="layman -L && layman -a pentoo && layman -S"
 packages:
-app-fuzz/Peach,app-fuzz/bed,app-fuzz/fuzzer-server,app-fuzz/http-fuzz,app-fuzz/ohrwurm,app-fuzz/slowhttptest,app-fuzz/smtp-fuzz, app-fuzz/smudge,net-analyzer/wfuzz,app-fuzz/fuzzdb
-
+app-admin/haskell-updater,dev-haskell/alex,dev-haskell/cabal,dev-haskell/cabal-install,dev-haskell/cgi,dev-haskell/deepseq,dev-haskell/fgl,dev-haskell/gluraw,dev-haskell/glut,dev-haskell/haddock,dev-haskell/happy,dev-haskell/haskell-platform,dev-haskell/haskell-src,dev-haskell/hscolour,dev-haskell/html,dev-haskell/http,dev-haskell/hunit,dev-haskell/mtl,dev-haskell/network,dev-haskell/objectname,dev-haskell/openglraw,dev-haskell/opengl,dev-haskell/parallel,dev-haskell/parsec,dev-haskell/quickcheck,dev-haskell/random,dev-haskell/regex-base,dev-haskell/regex-compat,dev-haskell/regex-posix,dev-haskell/statevar,dev-haskell/stm,dev-haskell/syb,dev-haskell/tensor,dev-haskell/text,dev-haskell/time,dev-haskell/transformers,dev-haskell/xhtml,dev-haskell/zlib,dev-lang/ghc
 
 
 #SAB_BAD=" or app-crypt="name,name2"
@@ -134,42 +132,4 @@ buildfail: /particles/hooks/buildfail.sh
 
 
 
-app-admin/haskell-updater
-dev-haskell/alex
-dev-haskell/cabal
-dev-haskell/cabal-install
-dev-haskell/cgi
-dev-haskell/deepseq
-dev-haskell/fgl
-dev-haskell/gluraw
-dev-haskell/glut
-dev-haskell/haddock
-dev-haskell/happy
-dev-haskell/haskell-platform
-dev-haskell/haskell-src
-dev-haskell/hscolour
-dev-haskell/html
-dev-haskell/http
-dev-haskell/hunit
-dev-haskell/mtl
-dev-haskell/network
-dev-haskell/objectname
-dev-haskell/openglraw
-dev-haskell/opengl
-dev-haskell/parallel
-dev-haskell/parsec
-dev-haskell/quickcheck
-dev-haskell/random
-dev-haskell/regex-base
-dev-haskell/regex-compat
-dev-haskell/regex-posix
-dev-haskell/statevar
-dev-haskell/stm
-dev-haskell/syb
-dev-haskell/tensor
-dev-haskell/text
-dev-haskell/time
-dev-haskell/transformers
-dev-haskell/xhtml
-dev-haskell/zlib
-dev-lang/ghc
+
