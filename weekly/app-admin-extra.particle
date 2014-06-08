@@ -4,7 +4,7 @@ DESCRIPTION="app-admin"
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-app-admin/eselect-metasploit
+app-admin/eselect-metasploit,
 
 # Entropy repository where to commit packages
 # Mandatory, cannot be empty
