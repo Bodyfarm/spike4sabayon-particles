@@ -7,10 +7,13 @@
 # Mandatory, cannot be empty
 #Preemtive command="layman -L && layman -a pentoo && layman -S"
 packages:
+
+net-analyzer/armitage,
 net-analyzer/amap,
 net-analyzer/blindelephant,
 net-analyzer/fierce,
 net-analyzer/geoedge,
+net-analyzer/metasploit
 net-analyzer/metagoofil,
 net-analyzer/ntp-fingerprint,
 net-analyzer/p0f,
