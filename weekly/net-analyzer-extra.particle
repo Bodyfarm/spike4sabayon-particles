@@ -25,7 +25,10 @@ net-analyzer/theHarvester,
 net-analyzer/waffit,
 net-analyzer/wfuzz,
 net-analyzer/whatweb,
-net-analyzer/xprobe
+net-analyzer/xprobe,
+net-analyzer/sguil-client,
+net-analyzer/sguil-sensor,
+net-analyzer/sguil-server,
 
 
 # Enforce stable or unstable packages on emerge.
